@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-int ch = 'a';
+int ch = 'a'
+int CH = 'A'
 
 while (ch <= 'z')
 {
@@ -15,12 +16,10 @@ putchar(ch);
 ch += 1;
 }
 
-int c = 'A';
-
-while (c <= 'Z')
+while (CH <= 'Z')
 {
-putchar(c);
-c += 1;
+putchar(CH);
+CH += 1;
 }
 
 putchar('\n');
