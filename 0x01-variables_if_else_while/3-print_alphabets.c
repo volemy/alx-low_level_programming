@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main- Entry point
+ * main - Entry point
  *
  * Return: 0 (success)
  */
@@ -15,12 +15,12 @@ putchar(ch);
 ch += 1;
 }
 
-int ch = 'A'
+int c = 'A';
 
-while (ch <= 'Z')
+while (c <= 'Z')
 {
-putchar(ch);
-ch += 1
+putchar(c);
+c += 1;
 }
 
 putchar('\n');
