@@ -7,12 +7,14 @@
  */
 int main(void)
 {
-int ch = 'a';
-while (ch <= 'z'; ch += 1)
+int lowercase;
+
+for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 {
-	if (ch != 'q' && ch != 'e')
-	putchar(ch);
+	if (lowercase != 'e' && lowercase != 'q')
+	{
+		putchar(lowercase);
+	}
 }
-putchar('\n');
 return (0);
 }
