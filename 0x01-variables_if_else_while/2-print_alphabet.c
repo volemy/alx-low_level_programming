@@ -12,12 +12,8 @@ int character = 'a';
 while (character <= 'z')
 {
 putchar(character);
-character +=1;
+character += 1;
 }
 putchar('\n');
-
 return (0);
-
 }
-	
-
