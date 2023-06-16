@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
  * main - Entry point
  *
@@ -7,19 +6,18 @@
  */
 int main(void)
 {
-int ch = 'a'
-int CH = 'A'
-
-while (ch <= 'z')
+int lowercase = 'a';
+int uppercase = 'A';
+while (lowercase <= 'z')
 {
-putchar(ch);
-ch += 1;
+putchar(lowercase);
+lowercase += 1;
 }
 
-while (CH <= 'Z')
+while (uppercase <= 'Z')
 {
-putchar(CH);
-CH += 1;
+putchar(uppercase);
+uppercase += 1;
 }
 
 putchar('\n');
