@@ -12,11 +12,11 @@ int i =  '0';
 
 while (i <= '9')
 {
-putchar (i);
+printf("%d", i);
 i += 1;
 }
 
-putchar('\n');
+printf('\n');
 return (0);
 }
 
