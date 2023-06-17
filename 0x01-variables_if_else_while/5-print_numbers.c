@@ -8,15 +8,8 @@
  */
 int main(void)
 {
-int i =  '0';
-
-while (i <= '9')
-{
-printf("%d", i);
-i += 1;
-}
-
-printf('\n');
-return (0);
+	printf("0123456789\n");
+	
+	return (0);
 }
 
