@@ -4,7 +4,7 @@
  *
  * Description: print two digit number combination in ascending order
  *
- * Return 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
