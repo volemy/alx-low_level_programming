@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main: Entry point
  *
  * Description:check if it prints combinations of two two-digit numbers
  * Return: 0 success
@@ -20,8 +20,8 @@ int main(void)
 		if (i == 98 && j == 99)
 			continue;
 
-		putchar (',')
-		putchar (' ')
+		putchar (',');
+		putchar (' ');
 		}
 	}
 
