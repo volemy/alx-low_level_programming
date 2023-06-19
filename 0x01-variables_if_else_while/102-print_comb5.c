@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: Entry point
+ * main - Entry point
  *
  * Description:check if it prints combinations of two two-digit numbers
  * Return: 0 success
