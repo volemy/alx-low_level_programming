@@ -11,8 +11,8 @@ void print_alphabet_x10(void)
 
 	c = 'a';
 
-	for (j = 0; j < 10);
-	{
+	 for (j = 0; j < 10;)
+	{		
 
 	     while (c <= 'z')
 		{
