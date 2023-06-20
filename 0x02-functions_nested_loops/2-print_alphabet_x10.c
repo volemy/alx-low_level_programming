@@ -10,7 +10,7 @@ char c;
 int j;
 
 j = 0;
-while(j < 10;)
+while(j < 10)
 
 {		
 c = 'a';
