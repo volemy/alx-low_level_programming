@@ -1,21 +1,19 @@
 #include "main.h"
 /**
- * main - A program thats prints _putchar
+ * main - A program thats prints all alphabets in lowercase
  *
- * Description: check if it prints _putchar
- * Return: 0 (success)
+ * Description: check if it prints all alphabets in lowercase
+ *
+ * print_alphabet - print all alphabet in lowercase
  */
-int main(void)
+void print_alphabet(void)
 {
-	putchar('95');
-	putchar('112');
-	putchar('117');
-	putchar('116');
-	putchar('99');
-	putchar('104');
-	putchar('97');
-	putchar('114');
-	putchar('10');
+	int char ch;
 
-	return (0);
+	for (ch = 97; ch <= 122; ch++)
+		_putchar(ch);
+
+	_putchar(10);
+
 }
+
