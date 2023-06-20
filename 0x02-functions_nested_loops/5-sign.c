@@ -5,9 +5,9 @@
  * @n: integer to be checked
  *
  * Description: check if it prints sign of a number
- * Returns 1 and prints + if n is greater than zero
- * Returns 0 and prints 0 if n is zero
- * Returns -1 and prints - if n is less than zero
+ * Return: 1 and prints + if n is greater than zero
+ * Return: 0 and prints 0 if n is zero
+ * Return: -1 and prints - if n is less than zero
  */
 int print_sign(int n)
 {
