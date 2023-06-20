@@ -10,19 +10,16 @@ char c;
 int j;
 
 j = 0;
-while(j < 10)
-
-{		
+while (j < 10)
+{	
 c = 'a';
 while (c <= 'z')
 {
 _putchar(c);
 c++;
-}	
-
+}
 _putchar(10);
 j++;
-
 }
 
 }
