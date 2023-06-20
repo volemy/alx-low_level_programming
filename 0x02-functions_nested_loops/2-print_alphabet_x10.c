@@ -11,7 +11,7 @@ int j;
 
 j = 0;
 while (j < 10)
-{	
+{
 c = 'a';
 while (c <= 'z')
 {
