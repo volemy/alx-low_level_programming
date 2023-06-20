@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * main - A program thats prints all alphabets in lowercase
+ * print_alphabet - A function that prints all alphabets in lowercase
  *
- * Description: check if it prints all alphabets in lowercase
- *
- * print_alphabet - print all alphabet in lowercase
+ * Description: check if it prints all alphabets in lowercase from 'a' to 'z'
+ * Uses the _putchar function to output all characters.
  */
 void print_alphabet(void)
 {
