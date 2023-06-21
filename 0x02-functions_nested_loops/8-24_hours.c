@@ -22,7 +22,7 @@ _putchar((j % 10) + '0');
 _putchar(58);
 _putchar((k / 10) + '0');
 _putchar((k % 10) + '0');
-_putchar(10)
+_putchar(10);
 k++;
 
 }
