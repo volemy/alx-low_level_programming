@@ -29,7 +29,7 @@ fibo2 = sum;
 
 printf("\n");
 
-}
+
 return (0);
 
 }
