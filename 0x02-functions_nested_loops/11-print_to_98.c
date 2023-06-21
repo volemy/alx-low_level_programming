@@ -10,7 +10,7 @@
  *              number should be passed to function
  *              last printed number should be 98
  */
- *void print_to_98(int n)
+void print_to_98(int n)
  {
   int i, j;
   
