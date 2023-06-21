@@ -10,15 +10,13 @@
  *
  * Return: sum of a and b
  */
-int add(int, int)
-	int a;
-	int b;
+int add(int a, int b)
 
 {
 
 int sum; /* Declaration of the variable sum */
 
-sum = int a + int b;
+sum = a +  b;
 
 return (sum);
 
