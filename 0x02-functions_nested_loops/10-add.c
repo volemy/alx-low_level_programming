@@ -10,10 +10,12 @@
  *
  * Return: sum of a and b
  */
-int add(int a, int b)
+int add(int, int);
+int a;
+int b;
 {
 
-int c:
+int c = sum;
 
 c = a + b;
 
