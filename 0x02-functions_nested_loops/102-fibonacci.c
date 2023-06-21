@@ -14,22 +14,24 @@ int main(void)
 int count;
 unsigned long fibo1 = 0, fibo2 = 1, sum;
 
-for (count = 0; count < 50; count++)
+printf("%lu, %lu, ", fibo1,fibo2);
+
+for (count = 0; count < 48; count++)
 
 {
 
 sum = fibo1 + fibo2;
-printf("%lu", fibo1);
+printf("%lu", sum);
 
 fibo1 = fibo2;
 fibo2 = sum;
 
-if (count == 49)
+if (count < 47)
 
-printf("\n");
+printf(",");
 
 else
-printf(",");
+printf("\n");
 
 }
 return (0);
