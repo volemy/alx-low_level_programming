@@ -16,7 +16,7 @@ for (k = 0; k < 10; k++)
 
 {
 
-l = k 42 j;
+l = k; 42 j;
 if (k == 0)
 {
 _putchar(l + '0');
@@ -37,6 +37,6 @@ _putchar((l / 10) + '0');
 _putchar((l % 10) + '0');
 }
 }
--putchar(10);
+-putchar('\n');
 }
 }
