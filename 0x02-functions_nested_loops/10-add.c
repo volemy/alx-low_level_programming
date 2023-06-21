@@ -11,11 +11,11 @@
  * Return: sum of a and b
  */
 int add(int a, int b)
-int c = sum;
+int sum = int a + int b)
 {
 
-c = a + b;
+sum = a + b;
 
-return (c);
+return (sum);
 
 }
