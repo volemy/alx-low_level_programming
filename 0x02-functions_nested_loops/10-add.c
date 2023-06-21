@@ -11,10 +11,11 @@
  * Return: sum of a and b
  */
 int add(int a, int b)
-int sum = int a + int b)
+	sum /* Declaration of the variable sum */
+
 {
 
-sum = a + b;
+sum = int a + int b;
 
 return (sum);
 
