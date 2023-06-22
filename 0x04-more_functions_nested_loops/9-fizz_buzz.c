@@ -18,24 +18,30 @@ int main(void)
 	{
 		if (a % 3 == 0 && a % 5 != 0)
 		{
-			puts("Fizz");
+			printf(" Fizz");
 		}
 		else if (a % 5 == 0 && a % 3 != 0)
 		{
 
-			puts("Buzz");
+			printf(" Buzz");
 		}
 		else if (a % 3 == 0 && a % 5 == 0)
 		{
-			puts("FizzBuzz");
+			printf(" FizzBuzz");
+		}
+		else if (a == 1)
+		{
+			printf("%d", a);
+		}
 
 		}
 		else
+
 		{
 			printf("%d", a);
 		}
 	}
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 
