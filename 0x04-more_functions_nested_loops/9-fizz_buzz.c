@@ -33,10 +33,7 @@ int main(void)
 		else
 		{
 			printf("%d", a);
-
 		}
-
-
 	}
 	puts(" ");
 
