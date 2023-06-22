@@ -32,11 +32,8 @@ int main(void)
 		else if (a == 1)
 		{
 			printf("%d", a);
-		}
-
-		}
+		}	
 		else
-
 		{
 			printf("%d", a);
 		}
@@ -44,5 +41,4 @@ int main(void)
 	printf("\n");
 
 	return (0);
-
 }
