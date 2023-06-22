@@ -32,7 +32,7 @@ int main(void)
 		else if (a == 1)
 		{
 			printf("%d", a);
-		}	
+		}
 		else
 		{
 			printf("%d", a);
