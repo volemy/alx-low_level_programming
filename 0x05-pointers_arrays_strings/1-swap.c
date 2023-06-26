@@ -9,4 +9,9 @@
  * Return: 0 (success)
  */
 void swap_int(int *a, int *b)
+{
+	int temp value = *a;
+	*a = *b;
+	*b = temp value;
+}
 
