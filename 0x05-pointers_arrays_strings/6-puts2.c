@@ -11,6 +11,7 @@ void puts2(char *str)
 	int b = 0;
 	char *c = str;
 	int i;
+
 	while (*c != '\0')
 	{
 		c++;
