@@ -9,7 +9,7 @@
  * if there are no numbers in string function returns 0
  * Return: int value converted to string
  */
-int _atoi(char *s);
+int _atoi(char *s)
 {
 	int i = 0;
 	int j = 0;
