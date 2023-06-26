@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * _atoi - function that converts string to integer
- * 
  * @s: string to convert
  * Description:number in string can be preceeded by an infinite character
  * take into account - and + signs
