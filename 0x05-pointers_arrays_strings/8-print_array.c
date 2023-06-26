@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print-array - function that prints n elements of an array of integers
+ * print_array - function that prints n elements of an array of integers
  * @a: array name
  * @n: number of elements of array to be printed
  *
@@ -9,8 +9,7 @@
  * numbers must be separated by a comma, followed by space
  * numbers should be displayed in the same order as they are stored in array
  *
- * return a and n
- *
+ * return a and n inputs
  */
 void print_array(int *a, int n)
 {
@@ -23,10 +22,8 @@ void print_array(int *a, int n)
 
 		if (j == (n - 1))
 		{
-			printf("%d" , a[n - 1]);
+			printf("%d", a[n - 1]);
 		}
-	
-		printf("\n");
 
-		
+		printf("\n");
 }
