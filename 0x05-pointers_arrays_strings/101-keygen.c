@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 /**
@@ -29,7 +30,7 @@ int main(void)
 		{
 			d = 2772 - c - '0';
 			c += d;
-			putchar (d + '0'):
+			putchar(d + '0');
 			break;
 		}
 
