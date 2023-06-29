@@ -1,8 +1,9 @@
 #include "main.h"
 /**
+ * reverse_array - function that reverses the content of an array of integers
+ * @n: number of elements of the array
  *
- *
- *
+ * Return: -ve if s1 < s2, 0 if s1 == s2, +ve if s1 > s2
  *
  */
 
