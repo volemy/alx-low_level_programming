@@ -3,7 +3,6 @@
 #include <string.h>
 
 /**
- *
  * add_node_end -  function that adds a new node at the end of list
  * @head: double pointer to list_t
  * @str: dtring to add
@@ -23,7 +22,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if (!k)
 		return (NULL);
-	
+
 	k->str = strdup(str);
 	k->len = len;
 	k->next = NULL;
