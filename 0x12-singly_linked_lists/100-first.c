@@ -2,7 +2,7 @@
 
 void initial(void)__attribute__((constructor));
 /**
- * initial _ function that uses constructor attribute to print a sentence
+ * initial - function that uses constructor attribute to print a sentence
  * before the main
  *
  */
