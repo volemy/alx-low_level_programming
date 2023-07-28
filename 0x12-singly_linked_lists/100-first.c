@@ -1,14 +1,10 @@
 #include <stdio.h>
 
-/**
- * initial -function that  applieus the constructor attribute to my initial()
- * so it's executed before the main()
- *
- */
 void initial(void)__attribute__((constructor));
-
 /**
- * initial - implementation of  initial
+ * initial _ function that uses constructor attribute to print a sentence
+ * before the main
+ *
  */
 void initial(void)
 {
