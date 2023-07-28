@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * initial -function that  applies the constructor attribute to my initial() so it's 
- * executed before the main()
+ * initial -function that  applieus the constructor attribute to my initial()
+ * so it's executed before the main()
  *
  */
 void initial(void)__attribute__((constructor));
