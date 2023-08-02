@@ -50,7 +50,7 @@ size_t looped_listint(const listint_t *head)
 		}
 
 		f = f->next;
-		g = g->next;
+		g = (g->next)->next;
 	}
 
 	return (0);
