@@ -25,7 +25,7 @@ unsigned int binary_to_uint(const char *b)
 	for (a = 0; b[a] != '\0'; a++)
 	{
 		k <<= 1;
-		if (b[1] == '1')
+		if (b[a] == '1')
 			k += 1;
 
 
