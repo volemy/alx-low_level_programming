@@ -5,7 +5,7 @@
  * @index: index of specific bit to be changed
  * @n: pointer to variable holding a number
  *
- * Return 1 (success), otherwise -1
+ * Return: 1 (success), otherwise -1
  *
  */
 
