@@ -26,7 +26,9 @@ int binary_search(int *array, size_t size, int value)
 		printf("searching in array: ");
 		for (idx = l_half; idx <= u_half; idx++)
 		{
-			printf("%d, ", array[idx]);
+			printf("%d", array[idx]);
+			if (idx < u_half)
+				printf(", ");
 		}
 		printf("\n");
 
